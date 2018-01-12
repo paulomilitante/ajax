@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Burger",
+        "description": "",
+        "price": "Php 50.00",
+        "img": "http:\/\/www.fjparis.com\/\/assets\/images\/food_img\/bakery\/Burger.jpg",
+        "category": "Main"
+    },
+    {
+        "name": "Fries",
+        "description": "",
+        "price": "Php 35.00",
+        "img": "http:\/\/8exll2rwl8l1f2ayejq2l9yh.wpengine.netdna-cdn.com\/wp-content\/uploads\/2015\/05\/bacon-ranch-chili-cheese-fries.jpg",
+        "category": "Sides"
+    },
+    {
+        "name": "Coke",
+        "description": "",
+        "price": "Php 30.00",
+        "img": "https:\/\/images-na.ssl-images-amazon.com\/images\/I\/41Zm4cCRhtL._SX342_.jpg",
+        "category": "Drink"
+    },
+    {
+        "name": "Spaghetti",
+        "description": "",
+        "price": "Php 50.00",
+        "img": "https:\/\/d2gg9evh47fn9z.cloudfront.net\/800px_COLOURBOX1767818.jpg",
+        "category": "Main"
+    },
+    {
+        "name": "Chicken",
+        "description": "",
+        "price": "Php 75.00",
+        "img": "http:\/\/www.seriouseats.com\/recipes\/images\/2012\/01\/20120112-popeyes-refried-chicken-6.jpg",
+        "category": "Main"
+    },
+    {
+        "name": "Pizza",
+        "description": "",
+        "price": "Php 100",
+        "img": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcR3cK7EwFSGqbDOVRHbOw6y1Zv4T4dkbib-gV9BUbLnAB2qemLg",
+        "category": "Group"
+    },
+    {
+        "name": "Nachos",
+        "description": "",
+        "price": "Php 100",
+        "img": "https:\/\/www.buffalowildwings.com\/globalassets\/menuitems\/10120006-ultimate-nachos.png?format=jpg&width=900&v=2",
+        "category": "Group"
+    }
+]
