@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.contentAll {
+	min-height: 70vh;
+	margin:20px auto;
+}
+
+.imgLogo {
+	width: 10vw;
+}
+
+.imgMenu {
+	height: 15vh;
+}
+
+
+.thisLogo {
+	margin: 10px auto;
+}
+
+.row .contentBox {
+	margin: 20px auto;
+	padding: 15px 0.75rem;
+	text-align: center;
+}
+
+.contentBox:hover {
+	box-shadow: 1px 1px 20px grey;
+	border-radius: 5%;
+}
+
+#wrongP,
+#dnMatch {
+	color: red;
+}
+
+input[disabled] {
+	color: lightgrey;
+}
+
+.input-field input[type='text']:focus,
+.input-field input[type='password']:focus {
+     border-bottom: 1px solid #6a1b9a !important;
+     box-shadow: 0 1px 0 0 #6a1b9a !important;
+   }
+
+.input-field input[type='text']:focus + label,
+.input-field input[type='password']:focus + label {
+	color: #6a1b9a !important;
+}
+
+ul.dropdown-content.select-dropdown li span {
+    color: #6a1b9a;
+}
+
+
+

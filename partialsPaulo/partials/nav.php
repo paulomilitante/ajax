@@ -14,15 +14,15 @@
         <li><a href=<?php 
 
   if (isset($_SESSION['username']))
-    echo '"http://localhost/partialsPaulo/items.php">Menu';
+    echo '"http://localhost/Paulo/partialsPaulo/items.php">Menu';
   else
-    echo '"http://localhost/partialsPaulo/login.php">Log-in';
+    echo '"http://localhost/Paulo/partialsPaulo/login.php">Log-in';
   ?></a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
         <?php 
           if (isset($_SESSION['username']))
-            echo "<li><a href='http://localhost/partialsPaulo/logout.php'>Logout</a></li>";
+            echo "<li><a href='http://localhost/Paulo/partialsPaulo/logout.php'>Logout</a></li>";
           ?>
       </ul>
     </div>
