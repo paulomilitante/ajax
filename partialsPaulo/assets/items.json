@@ -2,49 +2,49 @@
     {
         "name": "Angus Burger",
         "description": "Juicy Burger, our bestseller!",
-        "price": "60.00",
+        "price": "140.00",
         "img": "http:\/\/www.fjparis.com\/\/assets\/images\/food_img\/bakery\/Burger.jpg",
         "category": "Main"
     },
     {
         "name": "Dirty Fries",
         "description": "Perfect side dish for our burger!",
-        "price": "40.00",
+        "price": "100.00",
         "img": "http:\/\/8exll2rwl8l1f2ayejq2l9yh.wpengine.netdna-cdn.com\/wp-content\/uploads\/2015\/05\/bacon-ranch-chili-cheese-fries.jpg",
         "category": "Sides"
     },
     {
         "name": "Cola",
         "description": "Quench your thirst!",
-        "price": "30.00",
+        "price": "70.00",
         "img": "https:\/\/images-na.ssl-images-amazon.com\/images\/I\/41Zm4cCRhtL._SX342_.jpg",
         "category": "Drink"
     },
     {
         "name": "Classic Spaghetti",
         "description": "Favorite Italian dish!",
-        "price": "50.00",
+        "price": "150.00",
         "img": "https:\/\/d2gg9evh47fn9z.cloudfront.net\/800px_COLOURBOX1767818.jpg",
         "category": "Main"
     },
     {
         "name": "Fried Chicken",
         "description": "Crispy and juicy fried chicken!",
-        "price": "75.00",
+        "price": "150.00",
         "img": "http:\/\/www.seriouseats.com\/recipes\/images\/2012\/01\/20120112-popeyes-refried-chicken-6.jpg",
         "category": "Main"
     },
     {
         "name": "Pizza",
         "description": "Perfect group meal!",
-        "price": "100.00",
+        "price": "200.00",
         "img": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcR3cK7EwFSGqbDOVRHbOw6y1Zv4T4dkbib-gV9BUbLnAB2qemLg",
         "category": "Group"
     },
     {
         "name": "Asian Nachos",
         "description": "The best appetizer!",
-        "price": "90.00",
+        "price": "190.00",
         "img": "https:\/\/www.buffalowildwings.com\/globalassets\/menuitems\/10120006-ultimate-nachos.png?format=jpg&width=900&v=2",
         "category": "Group"
     }

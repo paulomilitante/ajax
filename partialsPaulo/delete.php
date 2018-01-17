@@ -11,7 +11,7 @@ $file = fopen('assets/items.json','w');
 fwrite($file, json_encode($items,JSON_PRETTY_PRINT));
 fclose($file);
 
-header('location: items.php');
+header("location: items.php");
 
 
 
