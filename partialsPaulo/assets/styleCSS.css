@@ -4,7 +4,6 @@
 	box-sizing: border-box;
 }
 
-
 .contentAll {
 	min-height: 70vh;
 	margin:20px auto;
@@ -16,6 +15,10 @@
 
 .imgMenu {
 	height: 15vh;
+}
+
+.imgMenu2 {
+	height: 120%;
 }
 
 
@@ -44,18 +47,27 @@ input[disabled] {
 }
 
 .input-field input[type='text']:focus,
-.input-field input[type='password']:focus {
+.input-field input[type='password']:focus,
+.input-field input[type='number']:focus,
+input[type='number']:focus,
+textarea.materialize-textarea:focus {
      border-bottom: 1px solid #6a1b9a !important;
      box-shadow: 0 1px 0 0 #6a1b9a !important;
    }
 
 .input-field input[type='text']:focus + label,
-.input-field input[type='password']:focus + label {
+.input-field input[type='password']:focus + label,
+.input-field input[type='number']:focus + label,
+textarea.materialize-textarea:focus + label {
 	color: #6a1b9a !important;
 }
 
 ul.dropdown-content.select-dropdown li span {
     color: #6a1b9a;
+}
+
+.modal {
+	max-height: 90%;
 }
 
 

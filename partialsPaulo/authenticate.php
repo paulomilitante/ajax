@@ -1,17 +1,24 @@
 <?php 
-	$string = file_get_contents("assets/users.json");
-	$users = json_decode($string, true);
+	// $string = file_get_contents("assets/users.json");
+	// $users = json_decode($string, true);
+
+	require "connection.php";
+
 	
 	$username = $_POST['username'];
-	$password = $_POST['password'];
+	$password = sha1($_POST['password']);
 
-	if (isset($users[$username])){
-		if ($users[$username] == $password) {
-			session_start();
-			$_SESSION['username'] = $username;
-			header('location: items.php');
-		}
+	$sql = "SELECT * FROM users WHERE username = '$username' AND password = '$password'";
+	$result = mysqli_query($conn,$sql);
+
+	if(mysqli_num_rows($result) > 0) {
+		$row = mysqli_fetch_assoc($result);
+		session_start();
+		$_SESSION['username'] = $username;
+		$_SESSION['role'] = $row['Role'];
+		header('location: items.php');
 	}
+
 	function display_title() {
 		echo "Log In";
 	}	
